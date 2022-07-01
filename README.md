@@ -2,10 +2,6 @@
 A cloud based remote android managment suite, powered by NodeJS
 </p>
 
-<a href="#"><img title="Made in INDIA" src="https://img.shields.io/badge/MADE%20IN%20-INDIA-orange?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-
-<a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20-Source%20%F0%9F%98%8E-yellowgreen?style=for-the-badge"></a>
-
 
 ## Features
 - GPS Logging
@@ -49,15 +45,15 @@ A cloud based remote android managment suite, powered by NodeJS
 
 5. In the extracted folder, run these commands
     - `npm install` <- install dependencies
-    - `pm2 start index.js` <-- start the DroidSpy
-    - `pm2 startup` <- to run DroidSpy on startup
+    - `pm2 start index.js` <-- start the AndroidHacking
+    - `pm2 startup` <- to run AndroidHacking on startup
 
 6. Default Username & Password check password.txt file
     - Username: admin
     - Password: admin
     
 7. Set Username & Password Manually  
-    1. Stop DroidSpy `pm2 stop index`
+    1. Stop AndroidHacking `pm2 stop index`
     2. Open `maindb.json` in a text editor
     3. under `admin` 
         - set the `username` as plain text
@@ -67,25 +63,12 @@ A cloud based remote android managment suite, powered by NodeJS
 
 8. in your browser navigate to `http://<SERVER IP>:22533`
     
-It's recommended to run DroidSpy behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
+It's recommended to run AndroidHacking behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 
 ## Happy Hacking
 ## Disclaimer
-<b>Linuxndroid Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
-DroidSpy is built for both Educational and Internal use ONLY.</b>
+<b>Sabi GuJJar Provides no warranty with this software and will not be responsible for any direct or indirect damage caused due to the usage of this tool.<br>
+AndroidHacking is built for both Educational and Internal use ONLY.</b>
 
 <br>
-<p align="center">Made with ❤️ By <a href="https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg">Linuxndroid</a></p>
-
-
-## Follow Me on :
-
-[![Instagram](https://img.shields.io/badge/IG-linuxndroid-yellowgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/linuxndroid)
-
-
-
-## Credits
-
-<b> Credits to <a href="https://github.com/D3VL">D3VL</a> for the original code base this repository is based on at <a href="https://github.com/D3VL/L3MON">L3MON</a>
-
-Inspired by INFINITYHACKS (https://github.com/ExtremeHacking/infinityhacks-botnet)
+<p align="center">Made with ❤️ By <a href="">Sabi GuJJar</a></p>
