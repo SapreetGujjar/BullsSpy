@@ -1,5 +1,4 @@
 <p align="center">
-<img src="https://github.com/Linuxndroid/DroidSpy/blob/master/assets/webpublic/logo.png" height="60"><br>
 A cloud based remote android managment suite, powered by NodeJS
 </p>
 
@@ -83,9 +82,7 @@ DroidSpy is built for both Educational and Internal use ONLY.</b>
 
 [![Instagram](https://img.shields.io/badge/IG-linuxndroid-yellowgreen?style=for-the-badge&logo=instagram)](https://www.instagram.com/linuxndroid)
 
-[![Youtube](https://img.shields.io/badge/Youtube-linuxndroid-redgreen?style=for-the-badge&logo=youtube)](https://www.youtube.com/channel/UC2O1Hfg-dDCbUcau5QWGcgg)
 
-[![Browser](https://img.shields.io/badge/Website-linuxndroid-yellowred?style=for-the-badge&logo=browser)](https://www.linuxndroid.com)
 
 ## Credits
 
