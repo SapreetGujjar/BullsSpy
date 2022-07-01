@@ -1,0 +1,86 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "21232f297a57a5a743894a0e4a801fc3",
+    "loginToken": "e48ffffa0a849aaba63502873ba8bd1c",
+    "logs": [
+      {
+        "time": "2022-06-21T10:26:42.770Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:46:22.162Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:46:30.118Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:46:34.699Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:46:42.756Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\njava.util.zip.ZipException: zip END header not found\n\tat java.base/java.util.zip.ZipFile$Source.findEND(ZipFile.java:1474)\n\tat java.base/java.util.zip.ZipFile$Source.initCEN(ZipFile.java:1482)\n\tat java.base/java.util.zip.ZipFile$Source.<init>(ZipFile.java:1320)\n\tat java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1282)\n\tat java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:709)\n\tat java.base/java.util.zip.ZipFile.<init>(ZipFile.java:243)\n\tat java.base/java.util.zip.ZipFile.<init>(ZipFile.java:172)\n\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:347)\n\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:318)\n\tat java.base/java.util.jar.JarFile.<init>(JarFile.java:298)\n\tat s.Sign.sign(Sign.java:441)\n\tat s.Sign.main(Sign.java:532)\n"
+      },
+      {
+        "time": "2022-06-21T10:46:42.890Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:46:51.756Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:53:06.410Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:53:14.854Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:53:22.350Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:53:22.505Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:53:22.537Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:53:22.605Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-06-21T10:53:51.818Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      },
+      {
+        "time": "2022-07-01T08:05:57.584Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"/home/sabi/Desktop/DroidSpy/app/factory/sign.jar\" \"/home/sabi/Desktop/DroidSpy/assets/webpublic/build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\n\tat s.Sign.sign(Sign.java:454)\n\tat s.Sign.main(Sign.java:532)\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)\n\t... 3 more\n"
+      }
+    ],
+    "ipLog": []
+  },
+  "clients": []
+}
