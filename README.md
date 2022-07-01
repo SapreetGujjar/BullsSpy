@@ -41,18 +41,17 @@ A cloud based remote android managment suite, powered by NodeJS
 3. install PM2 
     - `npm install pm2 -g`
 
-4. Download and Extract [HERE](https://codeload.github.com/Linuxndroid/DroidSpy/zip/master)
 
-5. In the extracted folder, run these commands
+4. In the extracted folder, run these commands
     - `npm install` <- install dependencies
     - `pm2 start index.js` <-- start the AndroidHacking
     - `pm2 startup` <- to run AndroidHacking on startup
 
-6. Default Username & Password check password.txt file
+5. Default Username & Password check password.txt file
     - Username: admin
     - Password: admin
     
-7. Set Username & Password Manually  
+6. Set Username & Password Manually  
     1. Stop AndroidHacking `pm2 stop index`
     2. Open `maindb.json` in a text editor
     3. under `admin` 
@@ -61,7 +60,7 @@ A cloud based remote android managment suite, powered by NodeJS
     4. save the file
     5. run `pm2 restart all`
 
-8. in your browser navigate to `http://<SERVER IP>:22533`
+7. in your browser navigate to `http://<SERVER IP>:22533`
     
 It's recommended to run AndroidHacking behind a reverse proxy such as [NGINX](https://www.nginx.com/resources/wiki/start/topics/tutorials/install/)
 
